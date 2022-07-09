@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#E40D7D;}
+	.st3{display:inline;opacity:0.3;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#010202;}
+</style>
+<g id="maske" class="st0">
+	<g class="st1">
+		<path class="st2" d="M31.8,0.2v31.6H0.2V0.2H31.8 M32,0H0v32h32V0L32,0z"/>
+	</g>
+	<g class="st3">
+		<rect y="4" class="st2" width="32" height="24"/>
+	</g>
+	<g class="st3">
+		<rect x="4" y="0" class="st2" width="24" height="32"/>
+	</g>
+	<g class="st3">
+		<rect x="2" y="2" class="st2" width="28" height="28"/>
+	</g>
+</g>
+<g id="name" class="st0">
+</g>
+<g id="bold_x28_2px_x29_">
+	<g>
+		<g>
+			<polygon class="st4" points="16,19 26.9,11.9 25.8,10.2 16,16.6 6.1,10.3 5,12 			"/>
+		</g>
+		<path class="st4" d="M29,7.3v17.4H3V7.3H29 M31,5.3H1v21.4h30V5.3L31,5.3z"/>
+	</g>
+</g>
+<g id="light_x28_1px_x29_" class="st0">
+	<g id="Ebene_7" class="st1">
+	</g>
+	<g class="st1">
+		<path class="st5" d="M30,6.3v19.4H2V6.3H30 M31,5.3H1v21.4h30V5.3L31,5.3z"/>
+		<polygon class="st5" points="16,19 26.9,11.9 26.4,11.1 16,17.8 5.5,11.1 5,12 		"/>
+	</g>
+</g>
+</svg>
