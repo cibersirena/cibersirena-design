@@ -22,6 +22,7 @@ body {
     margin-left: 0;
     margin-right: 0;
 }
+
 /* ------------- END BODY ------------- */
 
 /* ------------ HEADER ------------*/
@@ -43,16 +44,19 @@ body {
     font-size: 3rem;
     color: #fff;
 }
+
+.black {
+    color: #000;
+}
 /* ------------ END HEADER ------------*/
 
 /* ------------- HEADERS PAGES ------------ */
 .header {
-    background-image: url(../images/banner-biografia.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
     background-color: #E6F1F7;
-    padding: 4rem 0 15rem;
+    padding: 4rem 0 13.5rem;
 }
 
 .biografia {
@@ -250,6 +254,10 @@ body {
         padding: 0 0 2rem 2rem;
         text-align: right;
     }
+
+    .header {
+        padding-bottom: 10rem;
+      }
 
     .header__h1 {
         margin-top: 10%;
