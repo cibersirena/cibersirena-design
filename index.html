@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Cibersirena Design</title>
 </head>
@@ -14,15 +15,15 @@
     <header class="container-fluid header--index">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-7 header__logo">
-                <a href="#"><img src="./images/logo-cibersirena.svg" alt="Logo de Cibersirena Design" class="d-block"></a>
+                <a href="#"><img src="./images/logo-cibersirena.svg" alt="Logo de Cibersirena Design" class="d-block my-0 mx-auto"></a>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-5 header__nav">
                 <nav class="navbar navbar-expand-md">
-                    <div class="container-fluid">
+                    <div class="container-fluid flex-md-column justify-content-end justify-content-md-center">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a class="nav-link px-0 active" aria-current="page" href="./pages/biografia.html">Biografía</a>
@@ -53,48 +54,46 @@
     <!----------- MAIN ----------->
     <main class="container-fluid main">
         <!----------- SECTIONS ------------->
-        <section class="row main__section">
+        <section class="row justify-content-around main__section">
             <div class="card col-lg-3 col-md-4 col-sm-6" id="card__main--first">
                 <img src="./images/gaby.jpg" class="card-img-top rounded-circle mx-auto main__section--img" alt="foto de Gabriela">
-          
                 <div class="card-body text-center">
                     <h5 class="card-title main__section--h5">Quién Soy</h5>
                     <p class="card-text main__section--p">Breve reseña de mi persona para que conozcas de donde vengo y hacia donde nado</p>
-                    <a href="./pages/biografia.html" class="btn btn-primary text-uppercase fw-bold rounded-pill">leer</a>
+                    <a href="./pages/biografia.html" class="btn btn-primary text-uppercase fw-bold rounded-pill w-75 p-3">leer</a>
                 </div>
             </div>
             <div class="card col-lg-3 col-md-4 col-sm-6" id="card__main--second">
                 <img src="./images/hice.jpg" class="card-img-top rounded-circle mx-auto main__section--img" alt="imagen de uno de mis trabajos">
-          
                 <div class="card-body text-center">
                     <h5 class="card-title main__section--h5">Lo que Hice</h5>
                     <p class="card-text main__section--p">Descubrí mi hábitat recorriendo mis trabajos realizados</p>
-                    <a href="./pages/portfolio.html" class="btn btn-primary text-uppercase fw-bold rounded-pill">mirar</a>
+                    <a href="./pages/portfolio.html" class="btn btn-primary text-uppercase fw-bold rounded-pill w-75 p-3">mirar</a>
                 </div>
             </div>
             <div class="card col-lg-3 col-md-4 col-sm-6" id="card__main--third">
                 <img src="./images/hago.jpg" class="card-img-top rounded-circle mx-auto main__section--img" alt="foto de Gabriela">
-          
                 <div class="card-body text-center">
                     <h5 class="card-title main__section--h5">Que Hago</h5>
                     <p class="card-text main__section--p">Conocé cómo puedo ayudarte</p>
-                    <a href="./pages/servicios.html" class="btn btn-primary text-uppercase fw-bold rounded-pill">elegir</a>
+                    <a href="./pages/servicios.html" class="btn btn-primary text-uppercase fw-bold rounded-pill w-75 p-3">elegir</a>
                 </div>
             </div>
         </section>
     </main>
 
-    <!----------- FOOTER  
-    <footer class="footer">
-        <div class="footer__datos">
-            <p>© Cibersirena Design 2022 | GBA Buenos Aires, Argentina</p>
+    <footer class="container-fluid position-relative footer">
+        <div class="row justify-content-around">
+            <div class="col-lg-6 col-md-6 col-sm-7">
+                <p class="mb-0 footer__p">© Cibersirena Design 2022 | GBA Buenos Aires, Argentina</p>
+            </div>
+            <div class="d-flex col-lg-2 col-md-3 col-sm-4 justify-content-sm-end justify-content-center">
+                <p class="fw-bold mb-0">Contacto:</p>
+                <a href="mailto:gabriela.monteforte@gmail.com" target="_blank"><i class="bi bi-envelope ms-4"></i></a>
+                <a href="https://www.linkedin.com/in/glmonteforte" target="_blank"><i class="bi bi-linkedin ms-4"></i></a>
+            </div>
         </div>
-        <div class="footer__datos right">
-            <p class="strong">Contacto:</p>
-            <a href="mailto:gabriela.monteforte@gmail.com"><img src="./images/email.svg" alt="icono email"></a>
-            <a href="https://www.linkedin.com/in/glmonteforte" target="_blank"><img src="./images/linkedin.svg" alt="icono linkedin"></a>
-        </div>   
-    </footer>----------->   
+    </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

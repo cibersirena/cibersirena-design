@@ -36,7 +36,6 @@ body {
 
 .header__logo img {
     width: 33.3333%;
-    margin: 0 auto;
 }
 
 .header__h1, 
@@ -74,10 +73,6 @@ body {
 /* ------------- END HEADERS PAGES ------------ */
 
 /* -------------- NAV -------------- */
-.navbar-collapse {
-    justify-content: center;
-}
-
 .navbar-nav {
     padding: 2rem 0 5.5rem;
 }
@@ -113,6 +108,10 @@ body {
     border-bottom: rgba(255, 255, 255, 1) solid 2px;
     animation-name: navbar;
 }
+
+.nav-link:visited {
+    color: #fff;
+}
 /* -------------- END NAV -------------- */
 
 /* ----------- MAIN ----------- */
@@ -127,7 +126,6 @@ body {
     margin-right: 5%;
     padding-top: 5%;
     padding-bottom: 7%;
-    justify-content: space-around;
 }
 
 .main__section .card {
@@ -152,7 +150,7 @@ body {
 }
 
 .main__section--p {
-    height: 38%;
+    height: 40%;
 }
 
 #card__main--first {
@@ -175,11 +173,6 @@ body {
 /* ----------- END SECTION ----------- */
 
 /* ----------- BUTTONS ----------- */
-.btn {
-    width: 70%;
-    padding: 1rem;
-}
-
 .btn-primary {
     color: #fff;
     background-color: #00BA92;
@@ -200,6 +193,21 @@ body {
 }
 /* ----------- END BUTTONS ----------- */
 
+/* --------------- FOOTER ---------------- */
+.footer {
+    background-color: #012E62;
+    color: #fff;
+    padding: 2% 0;
+    z-index: 2;
+}
+
+.bi.bi-envelope,
+.bi.bi-linkedin {
+    color: #fff;
+    font-size: 1.5rem;
+}
+/* --------------- END FOOTER ---------------- */
+
 
 /* ------------ RESPONSIVE ------------- */
 @media screen and (max-width: 991px) {
@@ -213,25 +221,25 @@ body {
         width: 70%;
     }
 
-    .navbar .container-fluid {
-        flex-direction: column;
-        align-items: end;
-    }
-
-    .navbar-toggler {
-        font-size: 40px;
-        color: rgb(255, 255, 255);
-    }
-
     .navbar {
-        --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
         --bs-navbar-toggler-focus-width: 0;
-        --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0);
         padding-right: 10%;
     }
 
     #navbarNav {
         margin-right: 5%;
+        margin-left: 45%;
+    }
+    
+    .navbar-toggler {
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        border-color: rgba(0, 0, 0, 0);
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        border-color:rgba(0, 0, 0, 0); ;
     }
 
     .navbar-nav {
@@ -280,6 +288,15 @@ body {
     .row.main__section div.card:first-child {
         margin-top: 0;
     }
+
+    .footer {
+        padding: 5% 0;
+    }
+
+    .footer__p {
+        text-align: center;
+        padding-bottom: 5%;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -310,6 +327,10 @@ body {
         font-size: 2.3rem;
         line-height: 3rem;
     }
+
+    .footer p {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -323,6 +344,7 @@ body {
 
     #navbarNav {
         margin-right: 5%;
+        margin-left: 60%;
     }
 
     .navbar {
@@ -338,6 +360,10 @@ body {
     .main__section--p {
         height: 45%;
     }
+
+    .footer {
+        padding: 10% 5%;
+      }
 }
 /* ------------ END RESPONSIVE ------------- */
 
@@ -497,27 +523,4 @@ fieldset {
  --------------- END FORM ---------------- */
 
 
-/* --------------- FOOTER ---------------- 
-.footer {
-    display: flex;
-    justify-content: space-around;
-    background-color: #012E62;
-    color: #fff;
-    padding: 2rem 0;
-}
 
-.footer__datos {
-    width: 35%;
-}
-
-.footer__datos p {
-    display: inline-block;
-}
-
-.footer__datos a img {
-    width: 2rem;
-    vertical-align: middle;
-    margin-left: 1rem;
-}
-
- --------------- END FOOTER ---------------- */
