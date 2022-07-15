@@ -51,21 +51,21 @@
 
     <!----------- MAIN ----------->
     <main class="container-fluid main">
-        <!----------- ARTICLE 
-        <article class="main__article">
-            <div class="main__article--img servicios">
-                <img src="../images/hago.jpg" alt="imagen trabajando">  
-            </div>
-            <h3 class="main__article--h3 servicios">Pedí tu presupuesto</h3>
-            <a href="./contacto.html" class="">Contacto</a>
-        </article>
-        ----------- SECTION 
-        <section class="main__section--pages">
-            <h2 class="main__section--h2">Lo que hago</h2>
-            <p class="pt-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-            <p class="pt-2">Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-            <p class="pt-2">nisl ut aliquip ex ea commodo consequat.npraesenicenim nibh euismod tincive</p>
-        </section>------------->
+        <div class="row flex-column-reverse justify-content-center align-items-center flex-sm-row justify-content-sm-between align-items-sm-start main--pages">
+            <article class="card col-lg-3 col-md-4 col-sm-5 main__article--pages" id="card__article">
+                <img src="../images/hago.jpg" class="card-img-top rounded-circle mx-auto main__article--img" alt="imagen trabajando">
+                <div class="card-body text-center">
+                    <h3 class="main__article--h3 fw-light">Pedí tu presupuesto</h3>
+                    <a href="./contacto.html" class="btn btn-primary text-uppercase fw-bold rounded-pill w-75 p-3">contacto</a>
+                </div>
+            </article>
+            <section class="col-lg-8 col-md-8 col-sm-7 main__section--pages">
+                <h2 class="main__section--h2 mt-0">Lo que hago</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                <p class="pt-3">Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                <p class="pt-3">nisl ut aliquip ex ea commodo consequat.npraesenicenim nibh euismod tincive</p>
+            </section>
+        </div>
     </main>
 
     <!----------- FOOTER ----------->
