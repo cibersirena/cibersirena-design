@@ -254,7 +254,52 @@ body {
   }
 }
 
-/* ----------- END SECTION ----------- */
+.main__section--galeria img {
+  width: 30%;
+}
+
+.main__article--ul {
+  font-size: 0.75rem;
+  border-radius: 0;
+}
+
+.main__article--ul li {
+  border: 1px solid #00BA92;
+  color: #00BA92;
+  margin: 0.5rem 0;
+  padding: 0.85rem 1rem;
+  background-color: transparent;
+}
+
+.list-group-item+.list-group-item {
+  border-top-width: 1px;
+}
+
+/* ----------- END SECTION AND ARTICLE ----------- */
+
+/* ----------- MODAL ---------- */
+.modal-body {
+  padding: 0;
+}
+
+.modal-content {
+  color: #012E62;
+  background-color: #E6F1F7;
+  border-radius: 1rem;
+  overflow: hidden;
+  border-color: #E6F1F7;
+}
+
+.modal__img {
+  width: 100%;
+}
+
+.modal-title {
+  font-size: 2rem;
+  font-family: 'rosarian', sans-serif;
+}
+
+/* ----------- END MODAL ---------- */
 
 /* ----------- BUTTONS ----------- */
 .btn-primary {
@@ -357,6 +402,7 @@ textarea {
 
 /* ------------ RESPONSIVE ------------- */
 @media screen and (max-width: 991px) {
+
   .main__section--img,
   .main__article--img {
     width: 70%;
@@ -411,6 +457,10 @@ textarea {
     margin-top: 10%;
   }
 
+  .main__section--galeria img {
+    width: 50%;
+  }
+
   .form__button {
     width: 48%;
   }
@@ -439,6 +489,10 @@ textarea {
     height: auto;
     margin-bottom: 2rem;
     margin-top: 1rem;
+  }
+
+  .main__section--galeria img {
+    width: 80%;
   }
 
   .form__button {
@@ -485,6 +539,10 @@ textarea {
     line-height: 3rem;
   }
 
+  .main__section--galeria img {
+    width: 100%;
+  }
+
   .form__button {
     width: 100%;
   }
@@ -504,55 +562,3 @@ textarea {
 }
 
 /* ------------ END RESPONSIVE ------------- */
-
-
-
-
-
-/* --------------- MAIN ---------------- 
-
---------------- SECTION AND ARTICLES---------------- 
-
-.main__section--portfolio {
-  width: 80%;
-}
-
-.main__section--galeria {
-  margin-top: 2rem;
-  display: flex;
-  flex-wrap:wrap;
-  justify-content: flex-start;
-  align-items:flex-start;
-}
-
-.main__section--galeria img {
-  width: 30%;
-}
-
-.main__article--portfolio {
-  width: 20%;
-}
-
-.main__article--h3.servicios {
-  margin-top: 2rem;
-}
-
-.main__article--ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  color: #00BA92;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.main__article--ul li {
-  border: 1px solid #00BA92;
-  margin: 0.25rem 0;
-  padding: 0.6rem 1rem;
-}
---------------- END SECTION AND ARTICLE ---------------- */
-
-/* --------------- END MAIN ---------------- */
