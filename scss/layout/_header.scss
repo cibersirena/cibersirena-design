@@ -1,0 +1,95 @@
+/* ------------ HEADER ------------*/
+.header {
+    &--index {
+        background-image: url(../images/banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+        background-color: #E6F1F7;
+        padding: 4rem 0 12.5rem;
+    }
+    &__logo {
+        img {
+            width: 33.3333%;
+        }
+    }
+    &__h1, &__h2 {
+        font-size: 3rem;
+        color: #fff;
+    }
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-color: #E6F1F7;
+    padding: 4rem 0 13.5rem;
+    &.biografia {
+        background-image: url(../images/banner-biografia.png);
+    }
+    &.contacto {
+        background-image: url(../images/banner-contacto.png);
+    }
+    &.servicios {
+        background-image: url(../images/banner-servicios.png);
+    }
+    &.portfolio {
+        background-image: url(../images/banner-portfolio.png);
+    }
+}
+
+.black {
+    color: #000;
+}
+/* ------------ END HEADER ------------*/
+
+/* -------------- NAV -------------- */
+.navbar-nav {
+    padding: 2rem 0 5.5rem;
+  }
+  
+  .nav-item {
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 0 2rem 0.7rem;
+  }
+  
+  .nav-link {
+    color: #fff;
+    filter: drop-shadow(0px 0px 7px black);
+  }
+  
+  .nav-link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    padding-bottom: 1rem;
+    border-bottom: rgba(255, 255, 255, 0) solid 2px;
+  }
+  
+  .nav-link:hover:not(.active)::after {
+    animation-name: navbar;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes navbar {
+    from {
+      border-color: rgba(255, 255, 255, 0);
+    }
+  
+    to {
+      border-color: rgba(255, 255, 255, 1);
+    }
+  }
+  
+  .nav-link.active::after {
+    border-bottom: rgba(255, 255, 255, 1) solid 2px;
+  }
+  
+  .nav-link:hover,
+  .navbar-nav .nav-link.active,
+  .nav-link:visited {
+    color: #fff;
+  }
+  
+  /* -------------- END NAV -------------- */
