@@ -1,15 +1,18 @@
 /* --------------- FOOTER ---------------- */
 .footer {
-    background-color: #012E62;
-    color: #fff;
-    padding: 2% 0;
-    z-index: 2;
+  background-color: $background-color-secondary;
+  color: #fff;
+  padding: 2% 0;
+  z-index: 2;
+
+  .bi.bi {
+    &-envelope, &-linkedin {
+      color: #fff;
+      font-size: 1.5rem;
+    }
   }
+}
   
-  .bi.bi-envelope,
-  .bi.bi-linkedin {
-    color: #fff;
-    font-size: 1.5rem;
-  }
+  
   
   /* --------------- END FOOTER ---------------- */

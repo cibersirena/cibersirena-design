@@ -3,28 +3,26 @@
     color: #fff;
     background-color: $color-primary;
     border-color: $color-primary;
+    &:hover {
+      border-color: $color-primary;
+      animation-name: btn-primary;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
   }
   
   .btn-outline-primary {
     color: $color-primary;
     background-color: transparent;
     border-color: $color-primary;
-  }
-  
-  .btn-primary:hover {
-    border-color: $color-primary;
-    animation-name: btn-primary;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-  }
-  
-  .btn-outline-primary:hover {
-    border-color: $color-primary;
-    animation-name: btn-outline-primary;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    &:hover {
+      border-color: $color-primary;
+      animation-name: btn-outline-primary;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
   }
   
   @keyframes btn-primary {

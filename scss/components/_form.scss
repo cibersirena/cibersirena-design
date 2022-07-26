@@ -1,26 +1,30 @@
 /* --------------- FORM ---------------- */
 fieldset {
-    border: 0;
-  }
-  
-  .form-control::placeholder {
-    font-size: 0.75rem;
-  }
-  
+  border: 0;
+
   .form-control {
     padding: 0.5rem 1rem;
     font-weight: 300;
     color: #303030;
-    border: 1px solid #012E62;
+    border: 1px solid $color-secondary;
     border-radius: 1rem;
+    &::placeholder {
+      font-size: 0.75rem;
+    }
   }
-  
+
   textarea {
     resize: none;
   }
-  
+
   .form__button {
     width: 35%;
   }
+  
+}
+  
+  
+  
+  
   
   /* --------------- END FORM ---------------- */

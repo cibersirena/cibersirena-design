@@ -1,24 +1,23 @@
 /* ----------- MODAL ---------- */
-.modal-body {
-    padding: 0;
-  }
-  
-  .modal-content {
-    color: #012E62;
-    background-color: #E6F1F7;
+.modal{
+  &-content {
+    background-color: $background-color-primary;
     border-radius: 1rem;
     overflow: hidden;
-    border-color: #E6F1F7;
+    border-color: $background-color-primary;
   }
-  
-  .modal__img {
+  &-body {
+    padding: 0;
+  }
+  &__img {
     width: 100%;
   }
-  
-  .modal-title {
+  &-title {
     font-size: 2rem;
-    font-family: 'rosarian', sans-serif;
+    color: $color-titles;
+    font-family: $font-family-secondary;
   }
+}
   
-  /* ----------- END MODAL ---------- */
+/* ----------- END MODAL ---------- */
   

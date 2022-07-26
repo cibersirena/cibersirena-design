@@ -1,14 +1,5 @@
 
 @import "./utilities/variables";
-@import "./layout/header";
-@import "./layout/main";
-@import "./components/cards";
-@import "./components/buttons";
-@import "./layout/footer";
-@import "./components/form";
-@import "./views/portfolio";
-@import "./components/modal";
-@import "./utilities/mediaqueries";
 
 /* ------------ BODY ----------- */
 * {
@@ -25,3 +16,13 @@ body {
   color: $color-text;
 }
 /* ------------- END BODY ------------- */
+
+@import "./layout/header";
+@import "./layout/main";
+@import "./components/cards";
+@import "./components/buttons";
+@import "./layout/footer";
+@import "./components/form";
+@import "./views/portfolio";
+@import "./components/modal";
+@import "./utilities/mediaqueries";
