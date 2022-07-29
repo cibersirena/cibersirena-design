@@ -1,13 +1,13 @@
 /* --------------- FOOTER ---------------- */
 .footer {
   background-color: $background-color-secondary;
-  color: #fff;
+  color: $color-light;
   padding: 2% 0;
   z-index: 2;
 
   .bi.bi {
     &-envelope, &-linkedin {
-      color: #fff;
+      color: $color-light;
       font-size: 1.5rem;
     }
   }

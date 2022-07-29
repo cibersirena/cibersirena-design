@@ -4,11 +4,16 @@
 
 $font-family-primary:'Roboto', Arial, Helvetica, sans-serif;
 $font-family-secondary: 'rosarian', sans-serif;
-/* ------------ END FONT ------------ */
 
+/* ------------ COLORS ------------ */
 $color-text: #000;
 $color-titles: #012E62;
 $color-primary: #00BA92;
 $color-secondary: #012E62;
+$color-dark: #000;
+$color-light: #fff;
 $background-color-primary: #E6F1F7;
 $background-color-secondary: #012E62;
+
+/* ------------ ANIMATION ------------ */
+$animation-delay: 1s;

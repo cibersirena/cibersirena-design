@@ -1,1 +1,8 @@
+# Ignora la carpeta node_modules
 node_modules/
+
+# Ignora la carpeta assets
+assets/
+
+# Ignora la carpeta wireframe
+wireframe/

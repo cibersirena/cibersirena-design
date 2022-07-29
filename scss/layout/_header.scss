@@ -1,43 +1,28 @@
 /* ------------ HEADER ------------*/
 .header {
-    &--index {
-        background-image: url(../images/banner.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center bottom;
-        background-color: $background-color-primary;
-        padding: 4rem 0 12.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  background-color: $background-color-primary;
+  padding: 4rem 0 13.5rem;
+
+  &.index {
+    @extend .header;
+    padding: 4rem 0 12.5rem;
+  }
+  &__logo {
+    img {
+      width: 33.3333%;
     }
-    &__logo {
-        img {
-            width: 33.3333%;
-        }
-    }
-    &__h1, &__h2 {
-        font-size: 3rem;
-        color: #fff;
-    }
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-    background-color: $background-color-primary;
-    padding: 4rem 0 13.5rem;
-    &.biografia {
-        background-image: url(../images/banner-biografia.png);
-    }
-    &.contacto {
-        background-image: url(../images/banner-contacto.png);
-    }
-    &.servicios {
-        background-image: url(../images/banner-servicios.png);
-    }
-    &.portfolio {
-        background-image: url(../images/banner-portfolio.png);
-    }
+  }
+  &__h1, &__h2 {
+    font-size: 3rem;
+    color: $color-light;
+  }
 }
 
 .black {
-    color: #000;
+  color: $color-dark;
 }
 /* ------------ END HEADER ------------*/
 
@@ -53,7 +38,7 @@
     }
 
     &-link {
-      color: #fff;
+      color: $color-light;
       filter: drop-shadow(0px 0px 7px black);
       &::after {
         content: "";
@@ -63,13 +48,10 @@
         border-bottom: rgba(255, 255, 255, 0) solid 2px;
       }
       &:hover:not(.active)::after {
-        animation-name: navbar;
-        animation-duration: 2s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
+        @include animation (navbar, 2s, 1, forwards, 0);
       }
       &:hover, &:visited, &.active  {
-        color: #fff;
+        color: $color-light;
       }
       &.active::after {
         border-bottom: rgba(255, 255, 255, 1) solid 2px;

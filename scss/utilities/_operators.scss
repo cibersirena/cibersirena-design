@@ -1,0 +1,30 @@
+/* ---------- MAP ---------- */
+$back-header:(
+    index: url('../images/banner.png'),
+    biografia: url('../images/banner-biografia.png'),
+    contacto: url('../images/banner-contacto.png'),
+    servicios: url('../images/banner-servicios.png'),
+    portfolio: url('../images/banner-portfolio.png')
+);
+
+/* ------------ EACH ------------- */
+@each $page, $url in $back-header {
+    .header.#{$page} {
+        background-image: #{$url};
+    } 
+}
+
+/* ------------ MIXIN ------------- */
+@mixin animation ($name, $duration, $iteration, $fill, $delay) {
+    animation-name: $name;
+    animation-duration: $duration;
+    animation-iteration-count: $iteration;
+    animation-fill-mode: $fill;
+    animation-delay: $delay;
+}
+
+@mixin colors ($color, $border, $background) {
+    color: $color;
+    border-color: $border;
+    background-color: $background;
+}

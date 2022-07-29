@@ -23,7 +23,7 @@
     --bs-navbar-toggler-focus-width: 0;
     &-toggler {
       font-size: 40px;
-      color: rgb(255, 255, 255);
+      color: $color-light;
       border-color: rgba(0, 0, 0, 0);
       padding: 0;
       &-icon {
@@ -105,7 +105,7 @@
   }
   
   .header {
-    &--index {
+    &.index {
       background-position: 15% bottom;
     }
     &__logo img {
