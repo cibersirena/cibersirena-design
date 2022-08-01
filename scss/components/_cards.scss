@@ -16,7 +16,7 @@
       background-color: $background-color-primary;
       border: none;
       opacity: 0;
-      @include animation (card-article, 1s, 1, forwards, 0);
+      @include animation (card-article, 1s, 1, forwards, $animation-delay);
     }
   }
   &__article--img {

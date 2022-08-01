@@ -20,19 +20,19 @@ body {
 /* ---------- MAP ---------- */
 /* ------------ EACH ------------- */
 .index.header {
-  background-image: url("../images/banner.png"); }
+  background-image: url("../images/banner.webp"); }
 
 .header.biografia {
-  background-image: url("../images/banner-biografia.png"); }
+  background-image: url("../images/banner-biografia.webp"); }
 
 .header.contacto {
-  background-image: url("../images/banner-contacto.png"); }
+  background-image: url("../images/banner-contacto.webp"); }
 
 .header.servicios {
-  background-image: url("../images/banner-servicios.png"); }
+  background-image: url("../images/banner-servicios.webp"); }
 
 .header.portfolio {
-  background-image: url("../images/banner-portfolio.png"); }
+  background-image: url("../images/banner-portfolio.webp"); }
 
 /* ------------ MIXIN ------------- */
 /* ------------ HEADER ------------*/
@@ -161,7 +161,7 @@ body {
   animation-duration: 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: 0; }
+  animation-delay: 1s; }
 
 .main__article--img {
   width: 50%; }

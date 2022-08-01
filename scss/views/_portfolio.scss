@@ -2,7 +2,7 @@
 
 #main__article {
   opacity: 0;
-  @include animation (list-article, 1s, 1, forwards, 1s)
+  @include animation (list-article, 1s, 1, forwards, $animation-delay)
 }
   
 .main__article--ul {
