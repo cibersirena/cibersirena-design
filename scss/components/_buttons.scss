@@ -5,6 +5,10 @@
     border-color: $color-primary;
     @include animation (btn-primary, 1s, 1, forwards, 0);
   }
+  &:focus {
+    @include colors ($color-light, $color-primary, $color-primary);
+  }
+  --bs-btn-focus-shadow-rgb: 0, 186, 146;
 }
   
 .btn-outline-primary {
@@ -13,6 +17,10 @@
     border-color: $color-primary;
     @include animation (btn-outline-primary, 1s, 1, forwards, 0);
   }
+  &:focus {
+    @include colors ($color-primary, $color-primary, transparent);
+  }
+  --bs-btn-focus-shadow-rgb: 0, 186, 146;
 }
   
 @keyframes btn-primary {

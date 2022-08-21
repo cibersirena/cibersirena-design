@@ -41,9 +41,6 @@
   }
 
   .row.main {
-    &__section, &--pages {
-      padding-bottom: 20%;
-    }
     &__section section:last-child {
       margin-top: 10%;
     }
@@ -65,7 +62,7 @@
     }
     &__section {
        .card {
-        margin: 10% auto 20%;
+        margin: 10% auto 10%;
       }
       &--p {
         height: auto;
@@ -79,10 +76,18 @@
     &--pages .card {
       margin: 20% auto;
     }
+    &__article--ul {
+      padding-bottom: 20%;
+    }
   }
 
-  .row.main__section section:first-child {
-    margin-top: 0;
+  .row {
+    &.main__section section:first-child {
+      margin-top: 0;
+    }
+    &.main--pages {
+      padding-bottom: 0;
+    }
   }
 
   fieldset .form__button {
